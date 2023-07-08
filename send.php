@@ -8,7 +8,7 @@ $userPhone = $_POST['phone'];
 $userEmail = $_POST['email'];
 $userMessage = $_POST['message'];
 // создаем массив, содержащий значения переменных
-$data = array( 'name' => $userName, 'phone' => $userPhone, 'email' => $userEmail, 'message' => $userMessage);
+$data = ['name' => $userName, 'phone' => $userPhone, 'email' => $userEmail, 'message' => $userMessage];
 // преобразуем массив в строку, для отправки текста на почту
 $arrToText = implode ('; ', $data);
 
